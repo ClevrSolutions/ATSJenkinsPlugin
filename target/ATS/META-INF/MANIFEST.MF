@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: gajduka
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_121
+Extension-Name: ATS
+Specification-Title: Run UI tests with ATS.
+Implementation-Title: ATS
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: io.jenkins.plugins
+Short-Name: ATS
+Long-Name: ATS
+Plugin-Version: 1.0-SNAPSHOT (private-05/05/2019 18:03-gajduka)
+Hudson-Version: 2.7.3
+Jenkins-Version: 2.7.3
+Plugin-Dependencies: structs:1.7
+Plugin-Developers: 
+

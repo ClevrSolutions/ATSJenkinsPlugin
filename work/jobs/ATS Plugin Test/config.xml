@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <io.jenkins.plugins.sample.HelloWorldBuilder plugin="ATS@1.0-SNAPSHOT">
+      <appId>e89851c8-0658-43cd-babb-1a383dfb88d1</appId>
+      <appAPItoken>57efd4f8-0101-4cb7-b481-ea889d8617aa</appAPItoken>
+      <jobTemplateID>2b6fb370-eed9-418b-ad38-4aa3e99eb5bc</jobTemplateID>
+      <rerunAutomatically>true</rerunAutomatically>
+      <atsURL>https://ats100-test.mendixcloud.com</atsURL>
+    </io.jenkins.plugins.sample.HelloWorldBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

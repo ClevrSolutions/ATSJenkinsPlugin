@@ -1,0 +1,6 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace D:\ATS jenkins plugin\ATS\work\jobs\ATS Plugin Test\workspace
+ATS: running tests for template |2b6fb370-eed9-418b-ad38-4aa3e99eb5bc|
+ATS:   tests started with job id: |cd0e303a-47f0-45c5-b3fd-4ff862f8708d|
+Build step 'Run ATS test(s)' changed build result to FAILURE
+Finished: FAILURE
