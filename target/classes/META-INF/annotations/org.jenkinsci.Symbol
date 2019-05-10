@@ -1,1 +1,1 @@
-io.jenkins.plugins.sample.HelloWorldBuilder$DescriptorImpl
+com.mansystems.ats.ATSBuilder$DescriptorImpl

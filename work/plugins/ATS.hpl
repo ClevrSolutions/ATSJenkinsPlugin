@@ -1,13 +1,14 @@
 Manifest-Version: 1.0
-Group-Id: io.jenkins.plugins
+Group-Id: org.jenkins-ci.plugins
 Short-Name: ATS
-Long-Name: TODO Plugin
-Plugin-Version: 1.0-SNAPSHOT (private-05/05/2019 17:53-gajduka)
+Long-Name: ATS
+Plugin-Version: 1.0-SNAPSHOT (private-8451c423-gajduka)
 Hudson-Version: 2.7.3
 Jenkins-Version: 2.7.3
 Plugin-Dependencies: structs:1.7
-Plugin-Developers: 
-Libraries: D:\ATS jenkins plugin\ATS\src\main\resources,D:\ATS jenkins
-  plugin\ATS\target\classes
-Resource-Path: D:\ATS jenkins plugin\ATS\src\main\webapp
+Plugin-Developers: Andrej Gajduk:agajduk:gajduk dot andrej AT g00gle m
+ ail
+Libraries: D:\Dokumente\GitHub\ATSJenkinsPlugin\src\main\resources,D:\
+ Dokumente\GitHub\ATSJenkinsPlugin\target\classes
+Resource-Path: D:\Dokumente\GitHub\ATSJenkinsPlugin\src\main\webapp
 

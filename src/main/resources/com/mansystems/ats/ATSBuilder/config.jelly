@@ -1,0 +1,20 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <f:entry title="Application Id" field="appId" description="The id of the Mendix app you are trying to test.">
+        <f:textbox />
+    </f:entry>
+    <f:entry title="API token" field="appAPItoken" description="The key for the CI/CD API. Generated on the App Settings page.">
+        <f:textbox />
+    </f:entry>
+    <f:entry title="Job Template ID" field="jobTemplateID" description="The unique ID of the CI/CD Template. Can be found in ATS under CI/CD">
+        <f:textbox />
+    </f:entry>
+    <f:entry title="Rerun Automatically" field="rerunAutomatically" description="If true failed tests are automatically rerun 2 times. If both times they pass they are considered passed.">
+        <f:checkbox />
+    </f:entry>
+    <f:advanced>
+        <f:entry title="ATS URL" field="atsURL" description="Override if you want to use another ATS instance, e.g. when running on premise.">
+            <f:textbox  default="https://ats100.mendixcloud.com"/>
+        </f:entry>
+    </f:advanced>
+</j:jelly>

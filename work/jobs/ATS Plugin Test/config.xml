@@ -12,14 +12,20 @@
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <io.jenkins.plugins.sample.HelloWorldBuilder plugin="ATS@1.0-SNAPSHOT">
+    <com.mansystems.ats.ATSBuilder plugin="ATS@1.0-SNAPSHOT">
       <appId>e89851c8-0658-43cd-babb-1a383dfb88d1</appId>
       <appAPItoken>57efd4f8-0101-4cb7-b481-ea889d8617aa</appAPItoken>
       <jobTemplateID>2b6fb370-eed9-418b-ad38-4aa3e99eb5bc</jobTemplateID>
       <rerunAutomatically>true</rerunAutomatically>
       <atsURL>https://ats100-test.mendixcloud.com</atsURL>
-    </io.jenkins.plugins.sample.HelloWorldBuilder>
+    </com.mansystems.ats.ATSBuilder>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.Mailer plugin="mailer@1.18">
+      <recipients>andrej.gajduk@mansystems.de</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+    </hudson.tasks.Mailer>
+  </publishers>
   <buildWrappers/>
 </project>

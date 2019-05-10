@@ -1,0 +1,31 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace D:\Dokumente\GitHub\ATSJenkinsPlugin\work\jobs\ATS Plugin Test\workspace
+ATS: running tests for template |2b6fb370-eed9-418b-ad38-4aa3e99eb5bc|
+ATS:   tests started with job id: |d5a9716a-e7df-4463-919c-c47a7e0ec111|
+ATS:   not all tests passed. not passing test cases will be rerun automatically up to 2 times.
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.RuntimeException: java.io.IOException: Server returned HTTP response code: 502 for URL: https://ats100-test.mendixcloud.com/ws/RerunNotPassed
+	at com.mansystems.ats.ATSBuilder.perform(ATSBuilder.java:57)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:779)
+	at hudson.model.Build$BuildExecution.build(Build.java:205)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:162)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at hudson.model.Run.execute(Run.java:1741)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Caused by: java.io.IOException: Server returned HTTP response code: 502 for URL: https://ats100-test.mendixcloud.com/ws/RerunNotPassed
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.mansystems.ats.Utils.getResponseAsString(ATScicd.java:211)
+	at com.mansystems.ats.Utils.sendPostRequest(ATScicd.java:207)
+	at com.mansystems.ats.Requests.rerunNotPassed(ATScicd.java:184)
+	at com.mansystems.ats.ATScicd.rerunNotPassed(ATScicd.java:65)
+	at com.mansystems.ats.ATScicd.runTestAndGetResult(ATScicd.java:53)
+	at com.mansystems.ats.ATSBuilder.perform(ATSBuilder.java:55)
+	... 10 more
+Build step 'Run ATS test(s)' marked build as failure
+Finished: FAILURE

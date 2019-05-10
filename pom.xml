@@ -7,7 +7,6 @@
         <version>3.4</version>
         <relativePath />
     </parent>
-    <groupId>io.jenkins.plugins</groupId>
     <artifactId>ATS</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
@@ -80,14 +79,13 @@
         </dependency>
     </dependencies>
 
-    <!-- If you want this to appear on the wiki page:
     <developers>
       <developer>
-        <id>bhacker</id>
-        <name>Bob Q. Hacker</name>
-        <email>bhacker@nowhere.net</email>
+        <id>agajduk</id>
+        <name>Andrej Gajduk</name>
+        <email>gajduk dot andrej AT g00gle mail</email>
       </developer>
-    </developers> -->
+    </developers> 
 
     <!-- Assuming you want to host on @jenkinsci:
     <url>https://wiki.jenkins.io/display/JENKINS/TODO+Plugin</url>

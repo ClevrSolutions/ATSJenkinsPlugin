@@ -1,0 +1,9 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace D:\Dokumente\GitHub\ATSJenkinsPlugin\work\jobs\ATS Plugin Test\workspace
+ATS: running tests for template |2b6fb370-eed9-418b-ad38-4aa3e99eb5bc|
+ATS:   tests started with job id: |940f313d-7afc-40db-b089-be00726f5395|
+ATS:   not all tests passed. not passing test cases will be rerun automatically up to 2 times.
+ATS:      rerun 1 successfully started with id: |eee11328-3ce0-4833-a11a-387a83b72d53|
+ATS:      rerun 1 is NOT passed.
+Build step 'Run ATS test(s)' changed build result to FAILURE
+Finished: FAILURE
