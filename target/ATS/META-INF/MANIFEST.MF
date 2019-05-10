@@ -6,12 +6,13 @@ Extension-Name: ATS
 Specification-Title: Run UI tests with ATS.
 Implementation-Title: ATS
 Implementation-Version: 1.0-SNAPSHOT
-Group-Id: io.jenkins.plugins
+Group-Id: org.jenkins-ci.plugins
 Short-Name: ATS
 Long-Name: ATS
-Plugin-Version: 1.0-SNAPSHOT (private-05/05/2019 18:03-gajduka)
+Plugin-Version: 1.0-SNAPSHOT (private-57b04266-gajduka)
 Hudson-Version: 2.7.3
 Jenkins-Version: 2.7.3
 Plugin-Dependencies: structs:1.7
-Plugin-Developers: 
+Plugin-Developers: Andrej Gajduk:agajduk:gajduk dot andrej AT g00gle m
+ ail
 

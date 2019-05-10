@@ -6,3 +6,23 @@ ATS:   not all tests passed. not passing test cases will be rerun automatically 
 ATS:      rerun 1 successfully started with id: |2f7d421f-3b48-4feb-acfc-69d7356fdc2f|
 ATS:      rerun 1 is NOT passed.
 Build step 'Run ATS test(s)' changed build result to FAILURE
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.IllegalStateException: Could not determine Jenkins URL. You should set one in Manage Jenkins.
+	at org.jenkinsci.plugins.displayurlapi.DisplayURLProvider$ClassicDisplayURLProvider.getRoot(DisplayURLProvider.java:75)
+	at org.jenkinsci.plugins.displayurlapi.DisplayURLProvider$ClassicDisplayURLProvider.getRunURL(DisplayURLProvider.java:54)
+	at hudson.tasks.MailSender.createFailureMail(MailSender.java:252)
+	at hudson.tasks.MailSender.createMail(MailSender.java:179)
+	at hudson.tasks.MailSender.run(MailSender.java:110)
+	at hudson.tasks.Mailer.perform(Mailer.java:170)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:78)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:779)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:720)
+	at hudson.model.Build$BuildExecution.post2(Build.java:185)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:665)
+	at hudson.model.Run.execute(Run.java:1766)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:410)
+Build step 'E-mail Notification' marked build as failure
+Finished: FAILURE
