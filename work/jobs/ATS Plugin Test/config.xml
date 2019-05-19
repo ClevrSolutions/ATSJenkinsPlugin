@@ -13,11 +13,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <com.mansystems.ats.ATSBuilder plugin="ATS@1.0-SNAPSHOT">
-      <appId>e89851c8-0658-43cd-babb-1a383dfb88d1</appId>
-      <appAPItoken>57efd4f8-0101-4cb7-b481-ea889d8617aa</appAPItoken>
-      <jobTemplateID>2b6fb370-eed9-418b-ad38-4aa3e99eb5bc</jobTemplateID>
+      <appId>3c0ab0a5-f5de-4232-a95c-c3483ff531fe</appId>
+      <appAPItoken>3857620d-d4ca-4b1d-bd87-a0c56ff5cc4c</appAPItoken>
+      <jobTemplateID>a07ba277-4cf2-4aaf-a4f2-9073f1d8cfba</jobTemplateID>
       <rerunAutomatically>true</rerunAutomatically>
-      <atsURL>https://ats100-test.mendixcloud.com</atsURL>
+      <atsURL>https://ats100.mendixcloud.com</atsURL>
     </com.mansystems.ats.ATSBuilder>
   </builders>
   <publishers>

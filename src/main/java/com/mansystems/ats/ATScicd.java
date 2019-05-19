@@ -235,7 +235,7 @@ class RequestTemplates {
 			"   <soapenv:Header>n" + 
 			"      <men:authentication>" + 
 			"         <username>ATSAPIUser</username>" + 
-			"         <password>ATSAPIPassword</password>" + 
+			"         <password>ATSAPIUser</password>" + 
 			"      </men:authentication>" + 
 			"   </soapenv:Header>" + 
 			"   <soapenv:Body>" + 
@@ -255,7 +255,7 @@ class RequestTemplates {
 			"   <soapenv:Header>" + 
 			"      <men:authentication>" + 
 			"         <username>ATSAPIUser</username>" + 
-			"         <password>ATSAPIPassword</password>" + 
+			"         <password>ATSAPIUser</password>" + 
 			"      </men:authentication>" + 
 			"   </soapenv:Header>" + 
 			"   <soapenv:Body>" + 
@@ -274,7 +274,7 @@ class RequestTemplates {
 			"   <soapenv:Header>" + 
 			"      <men:authentication>" + 
 			"         <username>ATSAPIUser</username>" + 
-			"         <password>ATSAPIPassword</password>" + 
+			"         <password>ATSAPIUser</password>" + 
 			"      </men:authentication>" + 
 			"   </soapenv:Header>" + 
 			"   <soapenv:Body>" + 

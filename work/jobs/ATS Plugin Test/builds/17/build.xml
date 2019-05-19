@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.tasks.MailMessageIdAction plugin="mailer@1.18">
+      <messageId>&lt;1309537181.0.1558276161134.JavaMail.gajduka@LTGAJDUKA&gt;</messageId>
+    </hudson.tasks.MailMessageIdAction>
+  </actions>
+  <queueId>6</queueId>
+  <timestamp>1558276160023</timestamp>
+  <startTime>1558276160034</startTime>
+  <result>FAILURE</result>
+  <duration>1411</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Dokumente\GitHub\ATSJenkinsPlugin\work\jobs\ATS Plugin Test\workspace</workspace>
+  <hudsonVersion>2.7.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
